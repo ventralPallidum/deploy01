@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basicapp/base.html" %}
+{% block body_block%}
+    <h1>This is other.html</h1>
+    <a href="{% url 'basicapp:relative' %}">relative</a>
+{% endblock %}
+
+{% block block2 %}
+    <div>This is block2 other.html</div>
+{% endblock %}

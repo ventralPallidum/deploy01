@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends 'basicapp/base.html' %}
+{% load my_extras %}
+{% block body_block %}
+<h1>This is index.html</h1>
+<div>{{ num1|add:"50" }} {{ txt1|cutter:';' }}</div>
+{% endblock %}
